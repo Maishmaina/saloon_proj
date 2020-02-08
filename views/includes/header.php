@@ -16,10 +16,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href="http://127.0.0.1/saloon/views/css/bootstrap.css"><!--bootstrap-->
-  <link rel="stylesheet" href="http://127.0.0.1/saloon/views/css/all.css"><!--webIcon-->
-  <link rel="stylesheet" href="http://127.0.0.1/saloon/views/css/lightbox.min.css"><!--This is for the css gallery--->
-	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/saloon/views/css/cssvihecle.css"><!--my css-->
+   <link rel="stylesheet" href="views/css/bootstrap.css"><!--bootstrap-->
+  <link rel="stylesheet" href="views/css/all.css"><!--webIcon-->
+  <link rel="stylesheet" href="saloon/views/css/lightbox.min.css"><!--This is for the css gallery--->
+	<link rel="stylesheet" type="text/css" href="views/css/cssvihecle.css"><!--my css-->
   <!-- SweetAlert vs2 -->
 <script src="http://127.0.0.1/saloon/views/js/sweetalert2/sweetalert2.all.js"></script>
 </head>
@@ -263,8 +263,8 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = '.......';
-$mail->Password = '....';
+$mail->Username = '....';
+$mail->Password = '.....';
 $mail->SMTPSecure = 'tls';
 $mail->setFrom('simpledaniel.1818@gmail.com', 'First Last');
 $mail->addReplyTo('simpledaniel.1818@gmail.com', 'First Last');
@@ -287,7 +287,7 @@ echo "<script>
                     closeOnConfirm:false
             }).then((result)=>{
               if(result.value){
-                window.open('http://127.0.0.1/saloon','_self');
+                window.open('home','_self');
               }
               });
            </script>";

@@ -44,9 +44,9 @@
   <!--for the inclution of the javaScript Contents--->
   <!--thejsquery, fontawesome, bootstrapjs,below hear-->
    
-  <script src="http://127.0.0.1/saloon/views/js/all.js"></script><!--WebIcons-->
-  <script src="http://127.0.0.1/saloon/views/js/bootstrapjquery.js"></script><!--jquerywork-->
-  <script src="http://127.0.0.1/saloon/views/js/bootstrap.js"></script><!--bootstrapwork-->
-  <script type="text/javascript" src="http://127.0.0.1/saloon/views/js/main.js"></script><!--myjs-->
+  <script src="views/js/all.js"></script><!--WebIcons-->
+  <script src="views/js/bootstrapjquery.js"></script><!--jquerywork-->
+  <script src="views/js/bootstrap.js"></script><!--bootstrapwork-->
+  <script type="text/javascript" src="views/js/main.js"></script><!--myjs-->
 </body>
 </html>
