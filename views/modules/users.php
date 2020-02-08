@@ -15,10 +15,10 @@
                 <form action="" method="POST">
 
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        <input type="email" name="c_email" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="password" class="form-control" placeholder="password" required>
+                        <input type="password" name="c_password" class="form-control" placeholder="password" required>
                     </div>
                     <input type="submit" name="login" class="btn btn-success btn-block" value="Login">
 
@@ -51,30 +51,39 @@
             </div>
 
             <div class="modal-body">
-                <form action="" method="post">
+                <form action="" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label class="form-control-label font-weight-bold">Full Name</label>
-                        <input type="text" class="form-control" name="name">
+                        <input type="text" class="form-control" name="c_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label font-weight-bold">Gender</label>
+                        <select name="c_gender"class="form-control">
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
                     </div>
 
                     <div class="form-group">
                         <label class="form-control-label font-weight-bold">Email</label>
-                        <input type="email" class="form-control" name="email">
+                        <input type="email" class="form-control" name="c_email" required>
                     </div>
 
                     <div class="form-group">
                         <label class="form-control-label font-weight-bold">Password</label>
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="form-control" name="c_password" required>
                     </div>
 
                     <div class="form-group">
                         <label class="form-control-label font-weight-bold">Image</label>
-                        <input type="file" class="form-control" name="image">
+                        <input type="file" class="form-control" name="c_image" required>
                     </div>
 
                     <div class="form-group">
                         <label class="form-control-label font-weight-bold">Address</label>
-                        <input type="text" class="form-control" name="address">
+                        <input type="text" class="form-control" name="c_location">
                     </div>
 
                     <input type="submit" name="register" value="Register" class="btn btn-success btn-block">
@@ -89,4 +98,10 @@
 <?php
   $login = new UserController();
   $login->ctrUserLogin();
+?>
+
+<!--Add / create new user-->
+<?php
+  $addUser = new UserController();
+  $addUser->ctrAddUser();
 ?>

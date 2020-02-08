@@ -31,7 +31,7 @@
   <!--the preloader for the images end--->
 	<nav class="navbar navbar-expand-lg navbar-light bg-info">
 
-      <a class="navbar-brand" href="#"><img src="views/img/template/fine.jpg" alt="banner" height="50px" width="50px"></a>
+      <a class="navbar-brand" href="#"><img src="views/img/template/fine.jpg" alt="banner" height="50px" width="50px" style="border-radius: 50%"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,37 +39,52 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto px-5">
 
-          <li class="nav-item active px-3">
+          <li class="nav-item active px-2">
             <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
 
-          <li class="nav-item px-3">
+          <li class="nav-item px-2">
             <a class="nav-link text-white" href="#services">Shop</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item px-2">
             <a class="nav-link text-white" href="#services">Services</a>
           </li>
 
-            <li class="nav-item px-3">
+            <li class="nav-item px-2">
             <a class="nav-link text-white" href="#about">About</a>
           </li>
-          <li class="nav-item px-3">
+
+          <li class="nav-item px-2">
             <a class="nav-link text-white" href="#contact">Contact Us</a>
           </li>
 
-            <li class="nav-item px-3">
-                <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#login_modal">
-                    Sign In
-                </a>
-            </li>
-
-            <li class="nav-item px-3">
-                <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#register_modal">
-                    Sign Up
-                </a>
-            </li>
-
         </ul>
+
+
+          <ul class="navbar-nav float-right">
+
+              <?php if(!isset($_SESSION['c_email'])): ?>
+
+                  <li class="nav-item px-1">
+                      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#login_modal">
+                          Sign In
+                      </a>
+                  </li>
+
+                  <li class="nav-item px-1">
+                      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#register_modal">
+                          Sign Up
+                      </a>
+                  </li>
+
+              <?php else: ?>
+                  <li class="nav-item px-1">
+                      <a class="nav-link text-white" href="views/modules/logout.php">Log Out</a>
+                  </li>
+              <?php endif; ?>
+
+
+          </ul>
 
       </div>
 
@@ -439,19 +454,22 @@
       </div>
     </div>
     </div>
-    <div class="text-danger">
- <p class="float-left p-3">&copy;2020</p>
- <p class="float-right p-3"> Developed with <i class="fas fa-heart"></i> by Wills</p>
-</div>
-  </footer>
- 
-<!---the footer section end--->
 
-	<!--for the inclution of the javaScript Contents--->
-		<!--thejsquery, fontawesome, bootstrapjs,below hear-->
+  </footer>
+
+  <div class="footer_bottom">
+      <p class="float-left p-3">&copy;2020 All Rights Reserved</p>
+      <p class="float-right p-3"> Developed with <i class="fas fa-heart"></i> by Wyliz</p>
+  </div>
+
+
+
+  <!---the footer section end--->
+  <!--for the inclution of the javaScript Contents--->
+  <!--thejsquery, fontawesome, bootstrapjs,below hear-->
 	 
-	<script src="views/js/all.js"></script><!--WebIcons-->
-<script src="views/js/bootstrapjquery.js"></script><!--jquerywork-->
+  <script src="views/js/all.js"></script><!--WebIcons-->
+  <script src="views/js/bootstrapjquery.js"></script><!--jquerywork-->
   <script src="views/js/bootstrap.js"></script><!--bootstrapwork-->
   <script type="text/javascript" src="views/js/main.js"></script><!--myjs-->
 </body>

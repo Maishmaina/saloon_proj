@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 08, 2020 at 11:44 AM
+-- Generation Time: Feb 08, 2020 at 03:37 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -43,22 +43,8 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`c_id`, `c_name`, `c_email`, `c_password`, `c_image`, `c_gender`, `c_location`) VALUES
-(1, 'Josh', 'josh@gmail.com', '1234', 'image_1', 'male', 'thika');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `products`
---
-
-CREATE TABLE `products` (
-  `p_id` int(11) NOT NULL,
-  `p_title` text NOT NULL,
-  `p_image` text NOT NULL,
-  `p_price` int(50) NOT NULL,
-  `p_desc` text NOT NULL,
-  `p_type` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+(6, 'Githendu', 'agithendu@gmail.com', '$2y$05$45kYu1eiIIdWMqu9w4nBv.x0UEUCdtqZOE7FQNJUT3iEZU958W5Jq', 'avatar5.png', 'male', '105, Main Street'),
+(7, 'Kanangoya', 'gkanangoya@gmail.com', '$2y$05$qeK6AlcPtOCIrMAngvxiVufk2kooktImxN/82SBj8z1mPjFWCyzjO', 'avatar04.png', 'male', 'Cabral Street');
 
 --
 -- Indexes for dumped tables
@@ -71,12 +57,6 @@ ALTER TABLE `customers`
   ADD PRIMARY KEY (`c_id`);
 
 --
--- Indexes for table `products`
---
-ALTER TABLE `products`
-  ADD PRIMARY KEY (`p_id`);
-
---
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -84,13 +64,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `products`
---
-ALTER TABLE `products`
-  MODIFY `p_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

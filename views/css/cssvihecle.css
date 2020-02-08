@@ -30,7 +30,8 @@
  		transform: scale(1);
  	}
  	50%{
- 		transform: scale(1.1); translate:(-2%);
+ 		transform: scale(1.1);
+		translate: -2%;
  	}
  	100%{
  		transform: scale(1);
@@ -44,7 +45,7 @@
 	font-weight: 600;
 	font-size: 0.8rem;
 }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
 	.title{
 		font-size:2rem;
 	}
@@ -317,7 +318,7 @@ margin-top: 10px;
 	width:40px;
 	height:40px;
 	text-align: center;
-	background:url(../img/template//imgdesign/top.jpg) no-repeat 0px 0px;
+	/*background:url(../img/template/imgdesign/top.jpg) no-repeat 0px 0px;*/
 	cursor:pointer;
 	border:none;
 	text-decoration: none;
@@ -418,4 +419,10 @@ margin-top: 10px;
 	 font-weight:bold;
 	 text-decoration: none;
 	 text-align:center;
+ }
+
+ /*styles footer bottom*/
+
+ .footer_bottom {
+	 font-weight: bold;
  }
