@@ -1,3 +1,13 @@
+
+<!--Turns on session and output buffering-->
+
+<?php
+
+  session_start();
+  ob_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +21,7 @@
   <link rel="stylesheet" href="views/css/lightbox.min.css"><!--This is for the css gallery--->
 	<link rel="stylesheet" type="text/css" href="views/css/cssvihecle.css"><!--my css-->
 </head>
+
 <body>
   <!--the preloader for the images srt-->
   <div class="preloader d-flex justify-content-center align-items-center">
@@ -19,51 +30,69 @@
   </div>
   <!--the preloader for the images end--->
 	<nav class="navbar navbar-expand-lg navbar-light bg-info">
-  <a class="navbar-brand" href="#"><img src="views/img/template/fine.jpg" alt="banner" height="50px" width="50px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto px-5">
-      <li class="nav-item active px-3">
-        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item px-3">
-        <a class="nav-link text-white" href="#brand">Brand</a>
-      </li>
-      <li class="nav-item dropdown px-3">
-        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Recent
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item " href="#pochez">Pochez</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item " href="#extrav12"> Extra v12</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#convertable">Convertable</a>
-        </div>
-      </li>
-      <li class="nav-item px-3">
-        <a class="nav-link text-white" href="#services">Services</a>
-      </li><li class="nav-item px-3">
-        <a class="nav-link text-white" href="#about">About</a>
-      </li>
-    </ul>
-    <!--social icons srt-->
-    <div class="nav-icons d-none d-lg-block">
-    	<a href="#" class="nav-icon px-2">
-    		<i class="fab fa-facebook text-secondary"></i>
-    	</a>
-    	<a href="#" class="nav-icon px-2">
-    		<i class="fab fa-twitter text-warning"></i>
-    	</a>
-    	<a href="#" class="nav-icon px-2">
-    		<i class="fab fa-whatsapp text-danger"></i>
-    	</a>
-    </div>
-  </div>
+      <a class="navbar-brand" href="#"><img src="views/img/template/fine.jpg" alt="banner" height="50px" width="50px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto px-5">
+
+          <li class="nav-item active px-3">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#brand">Brand</a>
+          </li>
+
+
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recent
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="#pochez">Pochez</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="#extrav12"> Extra v12</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#convertable">Convertable</a>
+            </div>
+          </li>
+
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#services">Services</a>
+          </li>
+
+            <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+
+            <li class="nav-item px-3">
+                <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#login_modal">
+                    Sign In
+                </a>
+            </li>
+
+            <li class="nav-item px-3">
+                <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#register_modal">
+                    Sign Up
+                </a>
+            </li>
+
+        </ul>
+
+      </div>
+
 </nav><!---end of the nav-->
+
+<!--  includes users and register modals-->
+<?php include "modules/users.php"; ?>
+
+
+
+
 <!--the header srt-->
 <header class="header" id="header">
 <div class="container-fluid">
