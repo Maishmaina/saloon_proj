@@ -162,34 +162,57 @@
         <h6 class="text-uppercase font-weight-bold my-3">Services</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
-          Meet professinal to handle your request 
+          Meet professional to handle your request
         </p>
       </div>
     </div>
 	</div>
 </section>
 <!--Skill section end---->
+
 <!---this is the inventory section srt--->
-<section class="inventory py-5" id="inventory">
+<section class="inventory py-3" id="inventory">
   <div class="container">
       <!--thisis the section  header pats srt--->
-<div class="row mb-5">
+    <div class="row mb-3 mt-3">
       <div class="col d-flex flex-wrap text-uppercase justify-content-center">
      <h1 class="font-weight-bold align-self-center mx-1"> Best IN</h1>   
       
-      <h1 class="section-title-special mx-1">Servies</h1>
+      <h1 class="section-title-special mx-1">Services</h1>
     </div>
     </div>
       <!--this is the section  header parts ends--->
       <!---the element hair srt-->
       <div class="row inventory-container">
 
-<?php include "modules/products.php"; ?>
+
+      <?php include "modules/products.php"; ?>
 
    
       </div>
   </div>
+
+  <div class="container">
+        <!--thisis the section  header pats srt--->
+        <div class="row mb-3 mt-3">
+            <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+                <h1 class="font-weight-bold align-self-center mx-1"> Featured</h1>
+
+                <h1 class="section-title-special mx-1">Products</h1>
+            </div>
+        </div>
+        <!--this is the section  header parts ends--->
+        <!---the element hair srt-->
+        <div class="row inventory-container">
+
+
+            <?php include "modules/products.php"; ?>
+
+
+        </div>
+    </div>
 </section>
+
 <!---this is the inventory section end--->
 <!--question section srt-->
 <div class="section question py-5" id="question">
@@ -229,68 +252,120 @@
   </div>
 </div>
 <!--question section end--->
-<!--for the features property srt--->
-<section class="features py-5" id="feature">
-  <div class="container">
-   <!--for the section title srt--->
-   <div class="row mb-5">
-      <div class="col d-flex flex-wrap text-uppercase justify-content-center">
-     <h1 class="font-weight-bold align-self-center mx-1">Featured for</h1>   
-      
-      <h1 class="section-title-special mx-1">Quality</h1>
-    </div>
-    </div>
-   <!--for the section title end---> 
-    <div class="row">
-      <div class="col-10 mx-auto col-lg-6 featured-info my-3">
-        <div class="featured-item my-3 d-flex flex-wrap p-2 text-capitalize align-items-baseline">
-          <span class="featured-icon mr-2">
-            <i class="fas fa-car"></i>
-          </span>
-          <h5 class="font-weight-bold mx-1">Hair cut</h5>
-          <h5 class="mx-1">Best</h5>
-        </div><!--for the single item end--->
-        <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
-          <span class="featured-icon mr-2">
-            <i class="fas fa-car"></i>
-          </span>
-          <h5 class="font-weight-bold mx-1">Manicures</h5>
-          <h5 class="mx-1">Superb</h5>
-        </div><!--for the single item end--->
-        <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
-          <span class="featured-icon mr-2">
-            <i class="fas fa-car"></i>
-          </span>
-          <h5 class="font-weight-bold mx-1">Style</h5>
-          <h5 class="mx-1">Exeptional</h5>
-        </div><!--for the single item end--->
-        <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
-          <span class="featured-icon mr-2">
-            <i class="fas fa-car"></i>
-          </span>
-          <h5 class="font-weight-bold mx-1">Body waxing</h5>
-          <h5 class="mx-1">Excellent</h5>
-        </div><!--for the single item end--->
-        <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
-          <span class="featured-icon mr-2">
-            <i class="fas fa-car"></i>
-          </span>
-          <h5 class="font-weight-bold mx-1">Conditioning</h5>
-          <h5 class="mx-1">Top Level</h5>
-        </div><!--for the single item end--->
-      </div><!--ends the first column--->
-      <div class="col-10 col-lg-6 featured-img align-self-center my-3">
-        <div class="img-container">
-          <img src="views/img/products/conditioning.jpg" alt="" class="img-fluid featured-photo">
-          <a href="#" class="featured-link">
-            <i class="fas fa-search fa-3x"></i>
-          </a>
-        </div>
-      </div><!--ends of the second featured--->
-    </div>
-  </div>
-</section>
-<!--for the features property end--->
+
+
+
+      <!--the testmonies from our customers srt--->
+      <div class="services" id="services">
+          <div class="container">
+              <h3>Testimonies</h3>
+              <h4>We use Testimonies froim thye user to rate the prodycts</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ex, vitae accusantium. A, tempore sapiente saepe doloribus quod?</p>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="services-grid">
+                          <div class="row">
+                              <div class="col-sm-12 col-md-2 services-grid1">
+                                  <div class="services-gride-left">
+
+                                      <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                  </div>
+                              </div>
+                              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
+                                  <h5>Mr Daniel Johnston</h5>
+                              </div>
+                              <div class="col-sm-12 col-md-6 services-grid2">
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
+                                      SEE...
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="services-grid">
+                          <div class="row">
+                              <div class="col-sm-12 col-md-2 services-grid1">
+                                  <div class="services-gride-left">
+                                      <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                  </div>
+                              </div>
+                              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
+                                  <h5>Mr. Daniel Felterist</h5>
+                              </div>
+                              <div class="col-sm-12 col-md-6 services-grid2">
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
+                                      SEE...
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!--duplicar of the existing one below-->
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="services-grid">
+                          <div class="row">
+                              <div class="col-sm-12 col-md-2 services-grid1">
+                                  <div class="services-gride-left">
+
+                                      <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                  </div>
+                              </div>
+                              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
+                                  <h5>Mr. John stephestone</h5>
+                              </div>
+                              <div class="col-sm-12 col-md-6 services-grid2">
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
+                                      SEE...
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="services-grid">
+                          <div class="row">
+                              <div class="col-sm-12 col-md-2 services-grid1">
+                                  <div class="services-gride-left">
+                                      <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+
+                                  </div>
+                              </div>
+                              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
+                                  <h5>Joshua kimiches.</h5>
+                              </div>
+                              <div class="col-sm-12 col-md-6 services-grid2">
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
+                                      Lorem ipsum dolor sit amet, consectetur.</p>
+                                  <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
+                                      SEE...
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><!--container combined hear...-->
+      <!--the testmonies from our customers end--->
+
 <!--footer goes hear srt-->
   <footer id="footer">
     <div class="container">
@@ -325,7 +400,7 @@
 
   </footer>
 
- <!--register modal-->
+ <!--contact us modal-->
 <div class="modal fade" id="contactus_modal">
     <div class="modal-dialog">
         <div class="modal-form register modal-content">
@@ -414,6 +489,7 @@ echo "<script>
  }  
 
 }
+
 
                  ?>
             </div>
