@@ -104,6 +104,3 @@
   $addUser = new UserController();
   $addUser->ctrAddUser();
 ?>
-
-
-

@@ -1,4 +1,4 @@
-  <?php 
+<?php 
  $item = null;
  $value=null;  
 $products=ProductController::ctrShowProduct($item,$value);
@@ -21,9 +21,9 @@ foreach ($products as $key => $value) {
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span> <a href="#"> View Detail </a></p>
+              <p><span><i class="fas fa-cogs "></i></span> <a href="index.php?root=details&productId=<?php echo $value['p_id'] ?>"> View Detail </a></p>
               
-              <p><span><i class="fas fa-gas-pump "></i></span><a href="#">BOOK</a></p>
+              <p><span><i class="fas fa-gas-pump "></i></span><a href="details">BOOK</a></p>
             </div>
           </div>
  </div>

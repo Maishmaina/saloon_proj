@@ -25,7 +25,7 @@ class UserController {
                     $_SESSION["c_image"] = $response["c_image"];
 
                     echo "<script>alert('logged in Successful')</script>";
-                    echo "<script>window.open('user_home.php', '_self')</script>";
+                    echo "<script>window.open('home', '_self')</script>";
                 } else {
                     echo "<script>alert('logged in failed')</script>";
                 }
@@ -72,7 +72,7 @@ class UserController {
                 ';
 
                 echo '
-                  <script>window.open("user_home.php", "_self")</script>
+                  <script>window.open("home", "_self")</script>
                 ';
 
             }
