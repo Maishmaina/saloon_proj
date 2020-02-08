@@ -1,7 +1,7 @@
 <?php 
 
 /**
- *GET TEMPLATE FROM VIEW TO IDEX 
+ *GET TEMPLATE FROM VIEW TO INDEX 
  */
 class TemplateController {
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Me||Vihecle</title>
+	<title>SCH||Project</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -29,26 +29,17 @@
       <li class="nav-item active px-3">
         <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item px-3">
-        <a class="nav-link text-white" href="#brand">Brand</a>
-      </li>
-      <li class="nav-item dropdown px-3">
-        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Recent
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item " href="#pochez">Pochez</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item " href="#extrav12"> Extra v12</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#convertable">Convertable</a>
-        </div>
+      </li><li class="nav-item px-3">
+        <a class="nav-link text-white" href="#shop">Shop</a>
       </li>
       <li class="nav-item px-3">
         <a class="nav-link text-white" href="#services">Services</a>
-      </li><li class="nav-item px-3">
-        <a class="nav-link text-white" href="#about">About</a>
       </li>
+      <li class="nav-item px-3">
+        <a class="nav-link text-white" href="#about">About Us</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link text-white" href="#">Contact</a>
     </ul>
     <!--social icons srt-->
     <div class="nav-icons d-none d-lg-block">
@@ -68,12 +59,12 @@
 <header class="header" id="header">
 <div class="container-fluid">
 	<div class="row height-max align-items-center">
-		<div class=" col col-md-9 ml-auto text-right pr-5">
-			<h5 class="title-heading d-inline-block p-2 text-uppercase">All Pro</h5>
-		<h2 class="text-uppercase my-2 title">2019 WHEELBALOW</h2>
-		<h3 class="text-uppercase">model name</h3>
-		<h6 class="text-capitalize">strat from</h6>
-		<h2>Kshs 300,000 <a href="" class="title-icon     d-inline-block mx-2">
+		<div class=" col col-md-9 ml-auto text-right pr-5 mr-5">
+		<h5 class="title-heading d-inline-block p-2 text-uppercase">All Pro</h5>
+		<h2 class="text-uppercase my-2 title">2020 Best Hair Design</h2>
+		<h3 class="text-uppercase">Best Salon</h3>
+		<h6 class="text-capitalize">start from:</h6>
+		<h2>As Low As Kshs 100=/ <a href="" class="title-icon d-inline-block mx-2">
 			<i class="fas fa-play"></i>
 		</a></h2>
 		</div>
@@ -89,7 +80,7 @@
 			<div class="col d-flex flex-wrap text-uppercase justify-content-center">
      <h1 class="font-weight-bold align-self-center mx-1">Just Best</h1>   
       
-      <h1 class="section-title-special mx-1">car Sale</h1>
+      <h1 class="section-title-special mx-1">Salon</h1>
 		</div>
     </div>
     <!--for the progress of the skill section--->
@@ -97,19 +88,19 @@
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
         <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-comments fa-2x"></i></a>
-        <h6 class="text-uppercase font-weight-bold my-3">Great Support</h6>
+        <h6 class="text-uppercase font-weight-bold my-3">Shampoos</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, non!
+         We offer best conditionals for our customer
         </p>
       </div>
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
         <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-car fa-2x"></i></a>
-        <h6 class="text-uppercase font-weight-bold my-3">All Our Brand</h6>
+        <h6 class="text-uppercase font-weight-bold my-3">Hair Dyes</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, non!
+          Go more than, what perceived as natural
         </p>
       </div>
       <!--single skill--->
@@ -118,16 +109,16 @@
         <h6 class="text-uppercase font-weight-bold my-3">Affordable</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, non!
+        Actualize your style with best price out there 
         </p>
       </div>
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
         <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-people-carry fa-2x"></i></a>
-        <h6 class="text-uppercase font-weight-bold my-3">Handle</h6>
+        <h6 class="text-uppercase font-weight-bold my-3">Services</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, non!
+          Meet professinal to handle your request 
         </p>
       </div>
     </div>
@@ -140,161 +131,149 @@
       <!--thisis the section  header pats srt--->
 <div class="row mb-5">
       <div class="col d-flex flex-wrap text-uppercase justify-content-center">
-     <h1 class="font-weight-bold align-self-center mx-1"> Best</h1>   
+     <h1 class="font-weight-bold align-self-center mx-1"> Best IN</h1>   
       
-      <h1 class="section-title-special mx-1">Store</h1>
+      <h1 class="section-title-special mx-1">Servies</h1>
     </div>
     </div>
-      <!--thisis the section  header pats ends--->
-      <div class="row mb-5">
-        <div class="col-10 mx-auto col-md-12 d-flex justify-content-end">
-          <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="all">all</button>
-          <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="Kenya">nairobi</button>
-          <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="Nigeria">mombasa</button>
-        </div>
-      </div>
-      <!---the element car srt-->
+      <!--this is the section  header parts ends--->
+      <!---the element hair srt-->
       <div class="row inventory-container">
         <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/gallpic.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/products/hair_cutmen.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Hair Cuts
                   </h6>
-                  <h6>model</h6>
+                  <h6>Best</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">1,000</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
+              
+              <p><span><i class="fas fa-gas-pump "></i></span>BOOK</p>
             </div>
           </div>
         </div>
          <!--for the single item--->
           <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/gallpic1.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/products/conditioning.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Hair Conditioning
                   </h6>
-                  <h6>model</h6>
+                  <h6>Top Level</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">1,500</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
+              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
             </div>
           </div>
         </div>
          <!--for the single item--->
           <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/gallpic4.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/template/gallpic4.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Massage
                   </h6>
-                  <h6>model</h6>
+                  <h6>Pro</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">2,000</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>view Detail</p>
+              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
             </div>
           </div>
         </div>
          <!--for the single item--->
           <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/gallpic5.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/template/gallpic5.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Body waxing
                   </h6>
-                  <h6>model</h6>
+                  <h6>Cool</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">1,500</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
+              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
             </div>
           </div>
         </div>
          <!--for the single item--->
           <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/gallpic6.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/template/gallpic6.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Mancures
                   </h6>
-                  <h6>model</h6>
+                  <h6>Super</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">500</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
+              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
             </div>
           </div>
         </div>
          <!--for the single item--->
           <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
           <div class="card car-card">
-            <img src="views/img/template/fruit.jpg" class=" card-img-top car-img" alt="" height="100px">
+            <img src="views/img/template/fruit.jpg" class=" card-img-top car-img" alt="" height="200px">
             <div class="card-body">
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    Table Designer
+                    Women shampoos
                   </h6>
-                  <h6>model</h6>
+                  <h6>Pro</h6>
                 </div>
                 <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">10,000</span>
+                   <span class="car-price">1,000</span>
                 </h5>
               </div>
             </div><!--the card footer srt--->
             <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-car "></i></span>Star</p>
-              <p><span><i class="fas fa-cogs "></i></span>Automatic</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>50</p>
+              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
+              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
             </div>
           </div>
         </div>
@@ -314,9 +293,12 @@
         </a>
         <div class="question-text w-75">
           <h4 class="question-title text-capitalize font-weight-bold">
-            Looking For Property
+            About us
           </h4>
-          <p class="question-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur.</p>
+          <p class="question-info">We are here to offer the best servies.</p>
+          <p class="question-info">We are here to make sure that you experince the cheapest out there.</p>
+          <p class="question-info">We are here to make deal with you for your favour.</p>
+          <p class="question-info">We are here to meet your demand.</p>
         </div>
       </div>
       <!--single qustion two--->
@@ -326,9 +308,12 @@
         </a>
         <div class="question-text w-75">
           <h4 class="question-title text-capitalize font-weight-bold">
-            Selling A Property
+            How we serve you
           </h4>
-          <p class="question-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur.</p>
+          <p class="question-info">We are here to offer the best servies.</p>
+          <p class="question-info">We are here to make sure that you experince the cheapest out there.</p>
+          <p class="question-info">We are here to make deal with you for your favour.</p>
+          <p class="question-info">We are here to meet your demand.</p>
         </div>
       </div>
     </div>
@@ -341,9 +326,9 @@
    <!--for the section title srt--->
    <div class="row mb-5">
       <div class="col d-flex flex-wrap text-uppercase justify-content-center">
-     <h1 class="font-weight-bold align-self-center mx-1">Featured</h1>   
+     <h1 class="font-weight-bold align-self-center mx-1">Featured for</h1>   
       
-      <h1 class="section-title-special mx-1">Products</h1>
+      <h1 class="section-title-special mx-1">Quality</h1>
     </div>
     </div>
    <!--for the section title end---> 
@@ -353,42 +338,42 @@
           <span class="featured-icon mr-2">
             <i class="fas fa-car"></i>
           </span>
-          <h5 class="font-weight-bold mx-1">Shovel</h5>
-          <h5 class="mx-1">Model</h5>
+          <h5 class="font-weight-bold mx-1">Hair cut</h5>
+          <h5 class="mx-1">Best</h5>
         </div><!--for the single item end--->
         <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
           <span class="featured-icon mr-2">
             <i class="fas fa-car"></i>
           </span>
-          <h5 class="font-weight-bold mx-1">Shovel</h5>
-          <h5 class="mx-1">Model</h5>
+          <h5 class="font-weight-bold mx-1">Manicures</h5>
+          <h5 class="mx-1">Superb</h5>
         </div><!--for the single item end--->
         <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
           <span class="featured-icon mr-2">
             <i class="fas fa-car"></i>
           </span>
-          <h5 class="font-weight-bold mx-1">Shovel</h5>
-          <h5 class="mx-1">Model</h5>
+          <h5 class="font-weight-bold mx-1">Style</h5>
+          <h5 class="mx-1">Exeptional</h5>
         </div><!--for the single item end--->
         <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
           <span class="featured-icon mr-2">
             <i class="fas fa-car"></i>
           </span>
-          <h5 class="font-weight-bold mx-1">Shovel</h5>
-          <h5 class="mx-1">Model</h5>
+          <h5 class="font-weight-bold mx-1">Body waxing</h5>
+          <h5 class="mx-1">Excellent</h5>
         </div><!--for the single item end--->
         <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
           <span class="featured-icon mr-2">
             <i class="fas fa-car"></i>
           </span>
-          <h5 class="font-weight-bold mx-1">Shovel</h5>
-          <h5 class="mx-1">Model</h5>
+          <h5 class="font-weight-bold mx-1">Conditioning</h5>
+          <h5 class="mx-1">Top Level</h5>
         </div><!--for the single item end--->
       </div><!--ends the first column--->
       <div class="col-10 col-lg-6 featured-img align-self-center my-3">
         <div class="img-container">
-          <img src="views/img/template/gallpic5.jpg" alt="" class="img-fluid featured-photo">
-          <a href="" class="featured-link">
+          <img src="views/img/products/conditioning.jpg" alt="" class="img-fluid featured-photo">
+          <a href="#" class="featured-link">
             <i class="fas fa-search fa-3x"></i>
           </a>
         </div>
@@ -397,146 +382,43 @@
   </div>
 </section>
 <!--for the features property end--->
-<!--the testmonies from our customers srt--->
-<div class="services" id="services">
-    <div class="container">
-      <h3>Testimonies</h3>
-      <h4>We use Testimonies froim thye user to rate the prodycts</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ex, vitae accusantium. A, tempore sapiente saepe doloribus quod?</p>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="services-grid">
-            <div class="row">
-              <div class="col-sm-12 col-md-2 services-grid1">
-                <div class="services-gride-left">
-            
-                  <img src="views/img/template/gallpic7.png" alt="" class="rounded-circle" height="50px" width="50px">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                <h5>Mr Daniel Johnston</h5>
-              </div>
-              <div class="col-sm-12 col-md-6 services-grid2">
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-  SEE...
-</button>
-              </div>          
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="services-grid">
-            <div class="row">
-              <div class="col-sm-12 col-md-2 services-grid1">
-                <div class="services-gride-left">
-                  <img src="views/img/template/gallpic7.png" alt="" class="rounded-circle" height="50px" width="50px">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                <h5>Mr. Daniel Felterist</h5>
-              </div>
-              <div class="col-sm-12 col-md-6 services-grid2">
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-  SEE...
-</button>
-              </div>          
-            </div>
-          </div>
-        </div>
-      </div>
-    
-  <!--duplicar of the existing one below-->
-      <div class="row">
-        <div class="col-md-6">
-          <div class="services-grid">
-            <div class="row">
-              <div class="col-sm-12 col-md-2 services-grid1">
-                <div class="services-gride-left">
-                  
-                  <img src="views/img/template/gallpic7.png" alt="" class="rounded-circle" height="50px" width="50px">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                <h5>Mr. John stephestone</h5>
-              </div>
-              <div class="col-sm-12 col-md-6 services-grid2">
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-  SEE...
-</button>
-              </div>          
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="services-grid">
-            <div class="row">
-              <div class="col-sm-12 col-md-2 services-grid1">
-                <div class="services-gride-left">
-                  <img src="views/img/template/gallpic7.png" alt="" class="rounded-circle" height="50px" width="50px">
-                
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                <h5>Joshua kimiches.</h5>
-              </div>
-              <div class="col-sm-12 col-md-6 services-grid2">
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                Lorem ipsum dolor sit amet, consectetur.</p>
-                <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
- SEE...
-</button>
-              </div>          
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div><!--container combined hear...-->
-<!--the testmonies from our customers end--->
-<!---the footer section srt--->
 <!--footer goes hear srt-->
   <footer id="footer">
     <div class="container">
       <div class="row">
       <div class="col-md-4 three-col">
         <h4>Infor</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <form action="">
-          <input type="email"><button class="btn1"><i class="fas fa-envelope-open"></i></button>
-        </form>
+        <p>Were are located at karatina town. for the purpose of services</p>
+        <p>For the purpose of product we will deliver right at your homesteand</p> 
+        <p> do to shy off just contact us and we shall react as per your need please</p>
+        <a href="#" class="btn btn-success float-right">Contact Us</a>     
       </div>
       <div class="col-md-4 mid-row">
         <h4>Follow Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lets meet at our social media platform with more to offer.</p>
         <div class="special-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="btn btn-danger"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="btn btn-success"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
         </div>
       </div> 
       <div class="col-md-4 contact">
-        <h4>Office</h4>
-        <p><i class="fas fa-map-marker-alt design"></i>Karatina <span class="number">0100</span></p>
-        <p><i class="fas fa-phone design"></i> Kenya call<span class="number"> (254) 774259319</span></p>
-        <p><i class="fas fa-envelope-open design"></i><span class="number"><a href="mailto:@jukalia.com" class="infor"> jukalia@gmail.com</a></span></p>
+        <div class="float-right">
+        <h4>Reach us Fast</h4>
+        <p><i class="fas fa-map-marker-alt"></i>Karatina <span class="number">0100</span></p>
+        <p><i class="fas fa-phone "></i> Kenya call<span class="number"> (254) 774259319</span></p>
+        <p><i class="fas fa-envelope-open"></i><span class="number"><a href="mailto:@jukalia.com" class="infor"> salon@gmail.com</a></span></p>
+      </div>
       </div>
     </div>
     </div>
+    <div class="text-danger">
+ <p class="float-left p-3">&copy;2020</p>
+ <p class="float-right p-3"> Developed with <i class="fas fa-heart"></i> by Wills</p>
+</div>
   </footer>
+ 
 <!---the footer section end--->
 
 	<!--for the inclution of the javaScript Contents--->
