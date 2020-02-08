@@ -24,10 +24,36 @@ class UserController {
                     $_SESSION["c_email"] = $response["c_email"];
                     $_SESSION["c_image"] = $response["c_image"];
 
-                    echo "<script>alert('logged in Successful')</script>";
-                    echo "<script>window.open('user_home.php', '_self')</script>";
+                    echo "<script>
+                       swal({
+                        type:'success',
+                                title: '',
+                                text: 'New Customer Added Successfully',
+                                showConfirmButton: true,
+                                confirmButtonText:'Close',
+                                closeOnConfirm:false
+                        }).then((result)=>{
+                          if(result.value){
+                            window.open('home','_self');
+                          }
+                          });
+                       </script>";
+
                 } else {
-                    echo "<script>alert('logged in failed')</script>";
+                    echo "<script>
+                       swal({
+                                type:'error',
+                                text: 'Error occurred while processing your request',
+                                title: 'Please ensure email and password fields are correct',
+                                showConfirmButton: true,
+                                confirmButtonText:'Close',
+                                closeOnConfirm:false
+                        }).then((result)=>{
+                          if(result.value){
+                            window.open('home','_self');
+                          }
+                          });
+                       </script>";
                 }
 
             }
@@ -67,14 +93,36 @@ class UserController {
 
             if ($response == 'ok') {
 
-                echo '
-                  <script>alert("New Customer Added Successfully")</script>
-                ';
+                echo "<script>
+                   swal({
+                    type:'success',
+                            title: 'Success...',
+                            text: 'New Customer Added Successfully',
+                            showConfirmButton: true,
+                            confirmButtonText:'Close',
+                            closeOnConfirm:false
+                    }).then((result)=>{
+                      if(result.value){
+                        window.open('home','_self');
+                      }
+                      });
+                   </script>";
 
-                echo '
-                  <script>window.open("user_home.php", "_self")</script>
-                ';
-
+            } else {
+                echo "<script>
+                   swal({
+                            type:'error',
+                            text: 'Error occurred while processing your request',
+                            title: 'Please ensure all fields are correct',
+                            showConfirmButton: true,
+                            confirmButtonText:'Close',
+                            closeOnConfirm:false
+                    }).then((result)=>{
+                      if(result.value){
+                        window.open('home','_self');
+                      }
+                      });
+                   </script>";
             }
 
         }
