@@ -1,13 +1,13 @@
-
 <!--Turns on session and output buffering-->
-
 <?php
-
   session_start();
   ob_start();
 
+ use PHPMailer\PHPMailer\PHPMailer;
+ use PHPMailer\PHPMailer\Exception;
+ use PHPMailer\PHPMailer\SMTP;
+ require_once( 'views/vendor/autoload.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="views/css/all.css"><!--webIcon-->
   <link rel="stylesheet" href="views/css/lightbox.min.css"><!--This is for the css gallery--->
 	<link rel="stylesheet" type="text/css" href="views/css/cssvihecle.css"><!--my css-->
+  <!-- SweetAlert vs2 -->
+<script src="views/js/sweetalert2/sweetalert2.all.js"></script>
 </head>
 
 <body>
@@ -54,7 +56,7 @@
             <a class="nav-link text-white" href="#about">About</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link text-white" href="#contact">Contact Us</a>
+            <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#contactus_modal">Contact Us</a>
           </li>
 
             <li class="nav-item px-3">
@@ -85,7 +87,8 @@
 <header class="header" id="header">
 <div class="container-fluid">
 	<div class="row height-max align-items-center">
-		<div class=" col col-md-9 ml-auto text-right pr-5 mr-5">
+    <div class="testback"> 
+		<div class=" col col-md-9 ml-auto text-right pr-5 mr-5 mt-5 pt-5">
 		<h5 class="title-heading d-inline-block p-2 text-uppercase">All Pro</h5>
 		<h2 class="text-uppercase my-2 title">2020 Best Hair Design</h2>
 		<h3 class="text-uppercase">Best Salon</h3>
@@ -94,6 +97,7 @@
 			<i class="fas fa-play"></i>
 		</a></h2>
 		</div>
+  </div>
 	</div>
 </div>	
 </header>
@@ -165,145 +169,10 @@
       <!--this is the section  header parts ends--->
       <!---the element hair srt-->
       <div class="row inventory-container">
-        <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/products/hair_cutmen.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Hair Cuts
-                  </h6>
-                  <h6>Best</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">1,000</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
-              
-              <p><span><i class="fas fa-gas-pump "></i></span>BOOK</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
-          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/products/conditioning.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Hair Conditioning
-                  </h6>
-                  <h6>Top Level</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">1,500</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
-          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/template/gallpic4.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Massage
-                  </h6>
-                  <h6>Pro</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">2,000</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>view Detail</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
-          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/template/gallpic5.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Body waxing
-                  </h6>
-                  <h6>Cool</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">1,500</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
-          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/template/gallpic6.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Mancures
-                  </h6>
-                  <h6>Super</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">500</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
-          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
-          <div class="card car-card">
-            <img src="views/img/template/fruit.jpg" class=" card-img-top car-img" alt="" height="200px">
-            <div class="card-body">
-              <div class="card-info d-flex jastify-content-between">
-                <div class="car-text text-uppercase">
-                  <h6 class="font-weight-bold">
-                    Women shampoos
-                  </h6>
-                  <h6>Pro</h6>
-                </div>
-                <h5 class="car-value align-self-center py-2 px-3">Ksh
-                   <span class="car-price">1,000</span>
-                </h5>
-              </div>
-            </div><!--the card footer srt--->
-            <div class="card-footer text-capitalize d-flex justify-content-between">
-              <p><span><i class="fas fa-cogs "></i></span>View Detail</p>
-              <p><span><i class="fas fa-gas-pump "></i></span>Book</p>
-            </div>
-          </div>
-        </div>
-         <!--for the single item--->
+
+<?php include "modules/products.php"; ?>
+
+   
       </div>
   </div>
 </section>
@@ -444,6 +313,102 @@
  <p class="float-right p-3"> Developed with <i class="fas fa-heart"></i> by Wills</p>
 </div>
   </footer>
+
+ <!--register modal-->
+<div class="modal fade" id="contactus_modal">
+    <div class="modal-dialog">
+        <div class="modal-form register modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Contact Support for any Query</h5>
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label class="form-control-label font-weight-bold">Name</label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label font-weight-bold">Email</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label font-weight-bold">Subject</label>
+                        <input type="text" class="form-control" name="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label font-weight-bold">Message</label>
+                        <textarea class="form-control" name="message"></textarea>
+                    </div>
+
+                    <input type="submit" name="contact" value="Register" class="btn btn-success btn-block">
+
+                </form>
+                <?php 
+
+
+if (isset($_POST['contact'])) {
+$sender_name = $_POST['name'];
+$sender_email = $_POST['email'];
+$sender_subject = $_POST['subject'];
+$sender_message = $_POST['message'];
+$receiver_email = "simpledaniel.1818@gmail.com";
+// mail($receiver_email,$sender_name,$sender_subject,$sender_message,$sender_email);
+
+
+$mail = new PHPMailer(true);
+try{
+//$mail->SMTPDebug = 2;
+$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587;
+$mail->SMTPAuth = true;
+$mail->Username = '.......';
+$mail->Password = '....';
+$mail->SMTPSecure = 'tls';
+$mail->setFrom('simpledaniel.1818@gmail.com', 'First Last');
+$mail->addReplyTo('simpledaniel.1818@gmail.com', 'First Last');
+$mail->addAddress($sender_email, $sender_name);
+
+$mail->isHTML(true);
+$mail->Subject = $sender_subject;
+$mail->Body    = $sender_message;
+$mail->AltBody = 'This is a plain-text message body';
+
+$mail->send();
+
+echo "<script>
+           swal({
+            type:'success',
+                    title: 'Success...',
+                    text: 'Email sent successfully',
+                    showConfirmButton: true,
+                    confirmButtonText:'Close',
+                    closeOnConfirm:false
+            }).then((result)=>{
+              if(result.value){
+                window.open('http://127.0.0.1/saloon','_self');
+              }
+              });
+           </script>";
+
+ }catch(Exception $e){
+  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";   
+ }  
+
+}
+
+                 ?>
+            </div>
+        </div>
+    </div>
+</div> 
  
 <!---the footer section end--->
 

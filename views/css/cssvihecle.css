@@ -2,10 +2,10 @@
  .nav-link{font-weight:bold ;
  font-family:Bitter,Georgia,Times,"Times New Roman",serif ;}
  .nav-link:hover{
- 	background:#f72f6f;
+ opacity:0.5;
  }
  .nav-icon{
- 	text-decoration: none!important;
+	 text-decoration: none!important;
   }
 /* 
 *endit the header section
@@ -25,6 +25,13 @@
    animation: zoom 10s 2s infinite;
    
  }
+ .testback{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+ }
  @keyframes zoom{
  	0%{
  		transform: scale(1);
@@ -37,7 +44,6 @@
  	}
  }
  .title-heading{
- 	background: rgba(0,0,0,0.4);
  	border-left: 0.3rem solid blue;
  }
 .title{
