@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 08, 2020 at 08:31 AM
+-- Generation Time: Feb 08, 2020 at 11:44 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -37,6 +37,13 @@ CREATE TABLE `customers` (
   `c_gender` text NOT NULL,
   `c_location` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `customers`
+--
+
+INSERT INTO `customers` (`c_id`, `c_name`, `c_email`, `c_password`, `c_image`, `c_gender`, `c_location`) VALUES
+(1, 'Josh', 'josh@gmail.com', '1234', 'image_1', 'male', 'thika');
 
 -- --------------------------------------------------------
 
@@ -77,7 +84,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `products`
