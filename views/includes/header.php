@@ -18,10 +18,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="views/css/bootstrap.css"><!--bootstrap-->
   <link rel="stylesheet" href="views/css/all.css"><!--webIcon-->
-  <link rel="stylesheet" href="saloon/views/css/lightbox.min.css"><!--This is for the css gallery--->
+  <link rel="stylesheet" href="views/css/lightbox.min.css"><!--This is for the css gallery--->
 	<link rel="stylesheet" type="text/css" href="views/css/cssvihecle.css"><!--my css-->
   <!-- SweetAlert vs2 -->
-<script src="http://127.0.0.1/saloon/views/js/sweetalert2/sweetalert2.all.js"></script>
+<script src="views/js/sweetalert2/sweetalert2.all.js"></script>
 </head>
 
 <body>
@@ -64,7 +64,7 @@
 
           <ul class="navbar-nav float-right">
          <li class="nav-item px-1">
-                      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#login_modal">
+                      <a class="nav-link text-white" href="cart">
                           <i class="fas fa-shopping-cart"></i>
                       </a>
                   </li>
@@ -196,6 +196,8 @@
         </div>
     </div>
 </div>
+
+
 <!--Logs in user-->
 <?php
   $login = new UserController();
@@ -207,6 +209,7 @@
   $addUser = new UserController();
   $addUser->ctrAddUser();
 ?>
+
 
  <!--CONTACT US MODAL-->
 <div class="modal fade" id="contactus_modal">
@@ -241,7 +244,7 @@
                         <textarea class="form-control" name="message"></textarea>
                     </div>
 
-                    <input type="submit" name="contact" value="Register" class="btn btn-success btn-block">
+                    <input type="submit" name="contact" value="Submit" class="btn btn-success btn-block">
 
                 </form>
                 <?php 
