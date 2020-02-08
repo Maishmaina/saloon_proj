@@ -93,7 +93,6 @@
         </div>
     </div>
 </div>
-
 <!--Logs in user-->
 <?php
   $login = new UserController();
@@ -105,3 +104,6 @@
   $addUser = new UserController();
   $addUser->ctrAddUser();
 ?>
+
+
+
