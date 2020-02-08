@@ -396,7 +396,26 @@ margin-top: 10px;
 .servives-grid-right{
 			border-right:1px solid white;
 			border-bottom:2px solid red;
-
 	}
  	
+ }
+
+
+/** styling the login and register modal **/
+
+ .modal-form.login {
+	 max-width:350px !important;
+	 margin: 20% auto;
+ }
+
+ .modal-form.register {
+	 max-width:500px !important;
+	 margin:10% auto;
+ }
+
+ .modal-form a {
+	 color: #666;
+	 font-weight:bold;
+	 text-decoration: none;
+	 text-align:center;
  }
