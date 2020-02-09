@@ -11,7 +11,7 @@ foreach ($products as $key => $value) {
               <div class="card-info d-flex jastify-content-between">
                 <div class="car-text text-uppercase">
                   <h6 class="font-weight-bold">
-                    <?php echo($value["p_title"]) ?>
+                    <?php echo($value['p_title']) ?>
                   </h6>
                   <h6>Best</h6>
                 </div>
@@ -23,7 +23,7 @@ foreach ($products as $key => $value) {
             <div class="card-footer text-capitalize d-flex justify-content-between">
               <p><span><i class="fas fa-cogs "></i></span> <a href="index.php?root=details&productId=<?php echo $value['p_id'] ?>"> View Detail </a></p>
               
-              <p><span><i class="fas fa-gas-pump "></i></span><a href="details">BOOK</a></p>
+              <p ><a href="index.php?root=details&productId=<?php echo $value['p_id'] ?>" class="text-success">BOOK<i class="fas fa-shopping-cart"></i></a></p>
             </div>
           </div>
  </div>

@@ -10,7 +10,7 @@ static public function ctrAddProduct () {
 
 }
 /*----------  function showProduct  ----------*/
-static public function ctrShowProduct($item, $value) {
+static public function ctrShowProduct($item, $value){
 
 $table="products";
 $response = ProductModel::mdlShowProduct($table,$item,$value);
@@ -26,6 +26,18 @@ static public function ctrEditProduct () {
 static public function ctrDeleteProduct () {
 
 }
+/*----------  Function viewDetails  ----------*/
+static public function ctrShowDetails($item, $value){
+	if (isset($_GET["productId"])) {
+	$value=$_GET["productId"];
+	$item="p_id";
+	$table="products";
+   $response=ProductModel::mdlShowProduct($table,$item,$value);
+   return $response;
+	
+}
 
 }
+
+}//end of method
  ?>
