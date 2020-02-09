@@ -76,21 +76,24 @@
 <section class="inventory py-3" id="inventory">
   <div class="container">
       <!--this the section  header pats srt--->
-      <div class="row mb-3 mt-3"di>
-          <v class="col d-flex flex-wrap text-uppercase justify-content-center">
+      <div class="row mb-3 mt-3">
+          <div class="col d-flex flex-wrap text-uppercase justify-content-center">
               <h1 class="font-weight-bold align-self-center mx-1"> Best IN</h1>
 
               <h1 class="section-title-special mx-1">Services</h1>
       </div>
-
-      <div class="row mb-3 mt-3"di>
-          <v class="col d-flex flex-wrap text-uppercase justify-content-center">
-     <h1 class="font-weight-bold align-self-center mx-1">Quality</h1>
-      
-      <h1 class="section-title-special mx-1">Products</h1>
     </div>
 
-    </div>
+
+      <div class="row mb-3 mt-3">
+          <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+              <h1 class="font-weight-bold align-self-center mx-1"> Quality</h1>
+
+              <h1 class="section-title-special mx-1">Products</h1>
+          </div>
+      </div>
+
+
       <!--this is the section  header parts ends--->
       <!---the element hair srt-->
       <div class="row inventory-container">
