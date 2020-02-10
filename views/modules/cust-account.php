@@ -2,22 +2,22 @@
   if (!isset($_SESSION['c_email'])) {
       echo "<script>
 
-swal({
-                        type:'error',
-                                title: 'error',
-                                text: 'you are not loggged in',
-                                showConfirmButton: true,
-                                confirmButtonText:'Close',
-                                closeOnConfirm:false
-                        }).then((result)=>{
-                          if(result.value){
-                            window.open('home','_self');
-                          }
-                          });
+        swal({
+                type:'error',
+                        title: 'error',
+                        text: 'you are not loggged in',
+                        showConfirmButton: true,
+                        confirmButtonText:'Close',
+                        closeOnConfirm:false
+                }).then((result)=>{
+                  if(result.value){
+                    window.open('home','_self');
+                  }
+                  });
 
-</script>";
+                </script>";
 
-  } else {
+                  } else {
 
 ?>
 <div class="container">

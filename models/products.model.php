@@ -15,7 +15,8 @@ if($item != null) {
  $stmt->bindParam(":".$item, $value, PDO::PARAM_STR);
  $stmt->execute();
  return $stmt->fetch();		
-}else{
+}
+else{
  $stmt = Connection::Connect()->prepare("SELECT * FROM $table LIMIT 0,6");
  $stmt-> execute();
  return $stmt ->fetchAll();		
