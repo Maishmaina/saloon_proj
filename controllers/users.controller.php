@@ -28,13 +28,13 @@ class UserController {
                        swal({
                         type:'success',
                                 title: '',
-                                text: 'New Customer Added Successfully',
+                                text: 'Login Successfully',
                                 showConfirmButton: true,
                                 confirmButtonText:'Close',
                                 closeOnConfirm:false
                         }).then((result)=>{
                           if(result.value){
-                            window.open('home','_self');
+                            window.open('cust-account','_self');
                           }
                           });
                        </script>";
@@ -64,7 +64,7 @@ class UserController {
      * :: LOGIN USERS
      */
 
-    public function ctrAddUser() {
+    static public function ctrAddUser() {
         if (isset($_POST['register'])) {
 
             $c_name     = trim($_POST['c_name']);
@@ -126,6 +126,17 @@ class UserController {
             }
 
         }
+    }
+
+
+    /**
+     * :: LOGIN USERS
+     */
+
+    static public function ctrShowUsers($item, $value) {
+        $table = 'customers';
+        $response = UserModel::mdlShowUsers($table, $item, $value);
+        return $response;
     }
 
 

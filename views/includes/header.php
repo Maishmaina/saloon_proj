@@ -84,7 +84,7 @@
 
               <?php else: ?>
                   <li class="nav-item px-1">
-                      <a class="nav-link text-white" href="views/modules/logout.php">Log Out</a>
+                      <a class="nav-link text-white" href="logout">Log Out</a>
                   </li>
               <?php endif; ?>
 

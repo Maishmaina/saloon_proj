@@ -5,10 +5,18 @@ require_once 'connection.php';
 class UserModel
 {
     public function mdlShowUsers($table, $item, $value) {
-        $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item");
-        $stmt->bindParam(":" . $item, $value, PDO::PARAM_STR_CHAR);
-        $stmt->execute();
-        return $stmt->fetch();
+        if ($item != null) {
+            $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item");
+            $stmt->bindParam(":".$item, $value, PDO::PARAM_STR_CHAR);
+            $stmt->execute();
+
+            return $stmt->fetch();
+        } else {
+            $stmt = Connection::connect()->prepare("SELECT * FROM $table");
+            $stmt->execute();
+            return $stmt->fetchAll();
+        }
+
     }
 
     public function mdlAddUser($table, $data) {
