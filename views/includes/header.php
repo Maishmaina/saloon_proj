@@ -46,14 +46,14 @@
           </li>
 
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#services">Shop</a>
+            <a class="nav-link text-white" href="#inventory">Shop</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#services">Services</a>
+            <a class="nav-link text-white" href="#skills">Services</a>
           </li>
 
-            <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#about">About</a>
+            <li class="nav-item px-2"> 
+            <a class="nav-link text-white" href="#question">About</a>
           </li>
           <li class="nav-item px-3">
             <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#contactus_modal">Contact Us</a>
@@ -255,7 +255,7 @@ $sender_name = $_POST['name'];
 $sender_email = $_POST['email'];
 $sender_subject = $_POST['subject'];
 $sender_message = $_POST['message'];
-$receiver_email = "simpledaniel.1818@gmail.com";
+$receiver_email = "willsnyagah@gmail.com";
 // mail($receiver_email,$sender_name,$sender_subject,$sender_message,$sender_email);
 
 
@@ -266,12 +266,12 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = '....';
-$mail->Password = '.....';
+$mail->Username = 'willsnyagah@gmail.com';
+$mail->Password = '33455310willis';
 $mail->SMTPSecure = 'tls';
-$mail->setFrom('simpledaniel.1818@gmail.com', 'First Last');
-$mail->addReplyTo('simpledaniel.1818@gmail.com', 'First Last');
-$mail->addAddress($sender_email, $sender_name);
+$mail->setFrom($sender_email, $sender_name);
+$mail->addReplyTo('willsnyagah@gmail.com', 'nyaga');
+$mail->addAddress('willsnyagah@gmail.com','admin');
 
 $mail->isHTML(true);
 $mail->Subject = $sender_subject;

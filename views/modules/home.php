@@ -34,7 +34,7 @@
     <div class="row">
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
-        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-comments fa-2x"></i></a>
+        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-fire fa-2x"></i></a>
         <h6 class="text-uppercase font-weight-bold my-3">Shampoos</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
@@ -43,7 +43,7 @@
       </div>
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
-        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-car fa-2x"></i></a>
+        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-broadcast-tower fa-2x"></i></a>
         <h6 class="text-uppercase font-weight-bold my-3">Hair Dyes</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
@@ -52,7 +52,7 @@
       </div>
       <!--single skill--->
       <div class="col-sm-6 col-lg-3 text-center my-3">
-        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-wallet fa-2x"></i></a>
+        <a href="#" class="skills-icon p-3 rounded-circle"><i class="fas fa-leaf fa-2x"></i></a>
         <h6 class="text-uppercase font-weight-bold my-3">Affordable</h6>
         <div class="skills-underline"></div>
         <p class="w-75 mx-auto text-muted">
