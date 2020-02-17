@@ -120,8 +120,8 @@
 <div class="services" id="services">
     <div class="container">
         <h3>Testimonies</h3>
-        <h4>We use Testimonies froim thye user to rate the prodycts</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ex, vitae accusantium. A, tempore sapiente saepe doloribus quod?</p>
+        <h4>We use Testimonies from the user to rate the products</h4>
+        <p></p>
         <div class="row">
             <div class="col-md-6">
                 <div class="services-grid">
@@ -133,16 +133,12 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                            <h5>Mr Daniel Johnston</h5>
+                            <h5>Daniel Johnston</h5>
                         </div>
                         <div class="col-sm-12 col-md-6 services-grid2">
                             <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-                                SEE...
-                            </button>
+                                Want haircut of a life time, then this is your place</p>
+                        
                         </div>
                     </div>
                 </div>
@@ -152,20 +148,16 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-2 services-grid1">
                             <div class="services-gride-left">
-                                <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                <img src="views/img/users/avatar3.png" alt="" class="rounded-circle" height="50px" width="50px">
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                            <h5>Mr. Daniel Felterist</h5>
+                            <h5>Ruth Felterist</h5>
                         </div>
                         <div class="col-sm-12 col-md-6 services-grid2">
                             <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-                                SEE...
-                            </button>
+                                Wow such quality products you offer</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -180,20 +172,16 @@
                         <div class="col-sm-12 col-md-2 services-grid1">
                             <div class="services-gride-left">
 
-                                <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                <img src="views/img/users/avatar5.png" alt="" class="rounded-circle" height="50px" width="50px">
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                            <h5>Mr. John stephestone</h5>
+                            <h5>John stephestone</h5>
                         </div>
                         <div class="col-sm-12 col-md-6 services-grid2">
                             <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-                                SEE...
-                            </button>
+                                Thumbs up for the timely offering of services</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -203,21 +191,18 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-2 services-grid1">
                             <div class="services-gride-left">
-                                <img src="views/img/users/avatar04.png" alt="" class="rounded-circle" height="50px" width="50px">
+                                <img src="views/img/users/avatar2.png" alt="" class="rounded-circle" height="50px" width="50px">
 
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 services-grid1 servives-grid-right">
-                            <h5>Joshua kimiches.</h5>
+                            <h5>Rachael kimiches.</h5>
                         </div>
                         <div class="col-sm-12 col-md-6 services-grid2">
                             <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <p><span><i class="fas fa-long-arrow-alt-right text-danger"></i></span>
-                                Lorem ipsum dolor sit amet, consectetur.</p>
-                            <button type="button" class="btn btn-primary btn-lg more-details" data-toggle="modal" data-target="#exampleModal">
-                                SEE...
-                            </button>
+                                Shampoo services on another level</p>
+                            
+                            
                         </div>
                     </div>
                 </div>
